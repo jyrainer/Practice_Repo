@@ -12,6 +12,7 @@
 최빈수를 출력하는 프로그램을 작성하여라 (단, 최빈수가 여러 개 일 때에는 가장 큰 점수를 출력하라).
 """
 
+T = int(input())
 for test_case in range(1, T + 1):
     _ = int(input())
     score_list = list(map(int, input().split()))
