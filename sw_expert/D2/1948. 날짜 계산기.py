@@ -44,3 +44,14 @@ for test_case in range(1, T + 1):
             else:  # 지금 처리하는 달이 start_month가 아닌경우는 처리하는 달의 날만큼 추가
                 d_day += total_day_each_month[now_month]
     print(f"#{test_case} {d_day}")
+    """
+    다른방법
+    for t in range(1,T+1):
+        m1, d1, m2, d2= map(int,input().split())
+        total_days1 = sum(days[:m1]) + d1
+        total_days2 = sum(days[:m2]) + d2
+
+        days_diff = total_days2 - total_days1 +1
+
+        print(f"#{t} {days_diff}")
+    """
