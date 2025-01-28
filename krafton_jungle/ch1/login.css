@@ -1,0 +1,23 @@
+.left {
+    text-align: left;
+}
+.center {
+    margin: auto;
+    width:250px;
+}
+.image_input {
+    color: white;
+    background-image: url("https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg");
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    background-position:center;
+    background-size:cover;
+    border-radius: 10px;
+    padding-top: 40px;
+}
+.belanosima-regular {
+    font-family: "Belanosima", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
